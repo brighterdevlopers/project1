@@ -15,7 +15,7 @@ const Comon = (props) => {
                                     <h2 className='my-3'>We are the team of talented devlopers making website </h2>
                                     <div className='row'>
                                         <div className='mt-3'>
-                                            <NavLink to={props.visit1} className="get_started">{props.btnname1}</NavLink>
+                                            <a href={props.visit1} className="get_started">{props.btnname1}</a>
                                         </div>
                                         <div className='mt-3'>
                                             <NavLink to={props.visit2} className="get_started">{props.btnname2}</NavLink>
