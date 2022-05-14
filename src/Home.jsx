@@ -7,7 +7,7 @@ const Home = () => {
     return(
         <>
         <div className='homed'>
-        <Comon name='Grow your business with ' imgsrc={web} visit1='/service' btnname1='Get Started' visit2='https://codeforces.com/profile/deepsutariya' btnname2='My Profile'/>
+        <Comon name='Grow your business with ' imgsrc={web} visit2='/service' btnname2='Get Started' visit1='https://codeforces.com/profile/deepsutariya' btnname1='My Profile'/>
         </div>
         </>
     );
