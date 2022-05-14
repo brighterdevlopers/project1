@@ -15,7 +15,7 @@ const Web1 = () => {
         <>
             <Navbar />
             <Routes>
-            
+                <Route element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
